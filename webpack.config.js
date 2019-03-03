@@ -1,4 +1,5 @@
 const path = require('path');
+const OpenBrowserPlugin = require('open-browser-webpack-plugin');
 module.exports = {
   entry: './src/index.jsx',
   output: {
@@ -11,6 +12,12 @@ module.exports = {
   },
   module: {
     rules: [
+      {
+        enforce: 'pre',
+        test: /\.jsx?$/,
+        use: ['eslint-loader'],
+        exclude: /node_modules/,
+      },
       {
         test: /\.jsx?$/,
         use: [
@@ -27,6 +34,9 @@ module.exports = {
       }
     ]
   },
+  plugins: [
+    new OpenBrowserPlugin({ url: 'http://localhost:3000' })
+  ],
   devServer: {
     host: '0.0.0.0',
     overlay: true
