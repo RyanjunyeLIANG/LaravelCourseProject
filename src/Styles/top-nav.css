@@ -1,0 +1,12 @@
+.top-nav {
+  background-color: #4286f4;
+  border: 1px solid #4286f4;
+}
+
+.top-nav .navbar-nav > li > a {
+  color: #fff;
+}
+
+.top-nav .navbar-brand {
+  color: #fff;
+}

@@ -1,0 +1,14 @@
+.modal {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+}
+
+.modal__caption {
+  font-size: 16px;
+}
+
+.modal__buttons {
+  align-self: flex-end;
+  margin-top: 20px;
+}

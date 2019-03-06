@@ -1,0 +1,18 @@
+.person-item {
+  display: flex;
+}
+
+.person-item__text {
+  display: flex;
+  padding-left: 20px;
+  align-items: center;
+  height: 100%;
+}
+
+.person-item__name {
+  font-weight: bold;
+}
+
+.person-item__email {
+  margin-left: 15px;
+}
