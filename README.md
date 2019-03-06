@@ -1,11 +1,11 @@
 # React-Project-1
   This is my first project use React framework.
 # Dependencies:
-  Node.js
-  Npm
-  Babel
-  Lodash
-  Bootstrap 4
+  Node.js library,
+  Npm,
+  Babel,
+  Lodash,
+  Bootstrap4
 
 # Run on local machine
   Command prompt: npm run dev
